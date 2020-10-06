@@ -8,7 +8,7 @@ using UnityEditor.iOS.Xcode;
 
 public class NSPostProcessBuild 
 {
-	private const bool ENABLED = true;
+	private const bool ENABLED = false;
 	private const string PHOTO_LIBRARY_USAGE_DESCRIPTION = "The app requires access to Photos to save media to it.";
 
 	[InitializeOnLoadMethod]
